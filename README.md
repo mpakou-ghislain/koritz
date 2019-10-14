@@ -18,7 +18,7 @@ c'est  donc la classe d'entrée de toute l'pplication.
 
 N.B :  il  faut donc lancer l'application  en tapant  les commandes  :
 
-1) javac AppBnp  (pour compiler la classe principale )  ----->  il  y aura une génération d'un fichier AppBnp.class
+1) javac AppBnp.java  (pour compiler la classe principale )  ----->  il  y aura une génération d'un fichier AppBnp.class
 
 2) java AppBnp  (pour exécuter la classe AppBnp )  ------->  c'est l'exécution du fichier AppBnp.class
 
