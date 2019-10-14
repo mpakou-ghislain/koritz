@@ -14,7 +14,7 @@ Par ailleurs nous avons la classe Invoice qui sert de facture  pour tous les ach
 
 Enfin nous avons la classe AppBnp  qui est  la classe principale  (elle contient la méthode main pour tester ).
 
-c'est  donc la classe d'entrée de toute l'pplication.
+c'est  donc la classe d'entrée de toute l'application.
 
 N.B :  il  faut donc lancer l'application  en tapant  les commandes  :
 
