@@ -8,10 +8,16 @@ import java.util.Scanner;
  */
 public class AppBnp {
 	
+	/**
+	 *@param Fruit
+	 *@param Cart
+	 */
 	private static Fruit ap, wa, or;
 	private static Cart cart;
 	
-    @SuppressWarnings({ })
+    /**
+     * Main method
+     */
 	public static void main( String[] args ) {
     	ap = new Apple("Apple",0.2f);
     	or = new Orange("Orange",0.50f);
@@ -44,6 +50,11 @@ public class AppBnp {
         System.out.println(invoice.getFinalInvoive());
   }
     
+    /**
+     * this method allows us to select the name and the quantity of the fruit 
+     * we want to order.
+     * it stands for the GUI 
+     */
     
     private static void orderItem() {
        System.out.println("Enter the name of the Item you want to buy: ");

@@ -12,11 +12,13 @@ public class Fruit {
 	/**
 	 * @param name
 	 * @param unitPrice
-	 * @param quantity
 	 */
 	private String name;
 	protected float unitPrice;
 	
+	/**
+	 *  constructor of Fruit class using field 
+	 */
 	public Fruit(String name, float unitPrice) {
 		this.name = name;
 		this.unitPrice = unitPrice;
@@ -38,7 +40,7 @@ public class Fruit {
 	}
 
 	/**
-	 * @return the unitPrice
+	 * @return the unitPrice of each Fruit
 	 */
 	public float getUnitPrice() {
 		return unitPrice;
@@ -51,6 +53,12 @@ public class Fruit {
 		this.unitPrice = unitPrice;
 	}
 
+	
+	/**
+	 * 
+	 * @param quantity
+	 * @return the price of Fruit quantity which has been bought
+	 */
 	public float getPrice(int quantity) {
 		
 		return unitPrice*quantity;
